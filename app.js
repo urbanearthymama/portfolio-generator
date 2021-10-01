@@ -9,8 +9,8 @@ inquirer
         }
     ])
     .then(answers => console.log(answers))
-// const fs = require('fs');
-// const generatePage = require('./src/page-template.js');
+ const fs = require('fs');
+ const generatePage = require('./src/page-template.js');
 
 // const pageHTML = generatePage(name, github);
 
